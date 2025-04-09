@@ -1,4 +1,4 @@
- # Task List: Email Client MCP Server
+# Task List: Email Client MCP Server
 
 - [x] Fetch Gmail IMAP Extension Documentation
 - [x] Analyze Existing Code in `src/email_client`
@@ -25,8 +25,9 @@
 - [x] Scan code for hardcoded secrets
 - [x] Create GitHub repository (david-strejc/gmail-mcp-server)
 - [x] Create extensive README.md
-- [ ] Remove local `.git` directory
-- [ ] Initialize new local git repository
-- [ ] Add GitHub remote
-- [ ] Commit current code state
-- [ ] Force push to overwrite remote history
+- [x] Remove local `.git` directory
+- [x] Initialize new local git repository
+- [x] Add GitHub remote
+- [x] Commit current code state
+- [x] Force push to overwrite remote history
+- [ ] Resolve push conflict and push successfully to remote
