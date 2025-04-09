@@ -1,0 +1,32 @@
+ # Task List: Email Client MCP Server
+
+- [x] Fetch Gmail IMAP Extension Documentation
+- [x] Analyze Existing Code in `src/email_client`
+- [ ] Search for Python MCP Server Examples/Documentation (Not needed, existing SDK used)
+- [x] Implement Gmail IMAP Reading Functionality (Existing tool sufficient)
+- [x] Implement Gmail IMAP Searching Functionality (Enhanced existing tool with `X-GM-RAW` and `category:primary` filter)
+- [x] Implement Gmail IMAP Labeling Functionality (CRUD operations via `create-label`,,  `list-labels`, `rename-label`, `delete-label` tools)
+- [x] Integrate search/label enhancements into MCP Server (`server.py` - No changes needed, handled by tool/handler updates)
+- [x] Update `search-emails` tool definition (`tool_definitions.py`)
+- [x] Add `delete-label`, `rename-label` tool definitions (`tool_definitions.py`)
+- [x] Add batch label/move tool definitions (`tool_definitions.py`)
+- [x] Update `search-emails` handler (`handlers.py`)
+- [x] Add `delete-label`, `rename-label` handlers (`handlers.py`)
+- [x] Add batch label/move handlers (`handlers.py`)
+- [ ] Test the MCP server and tools
+- [x] Get Gmail labels
+- [x] Create 3 new email folders (Skipped by user)
+- [x] Categorize 3 emails individually
+- [x] Categorize 20 emails using batch operation
+- [x] Delete incorrect `b'Updates'` label (User deleted manually; code fixed to prevent recurrence)
+- [x] Categorize ~200 emails (Completed 141 via batch based on sender/subject)
+- [x] Categorize next ~50 uncategorized emails (Completed 67 via batch based on sender/subject)
+- [x] Ensure `.env` and `.venv` are in `.gitignore`
+- [x] Scan code for hardcoded secrets
+- [x] Create GitHub repository (david-strejc/gmail-mcp-server)
+- [x] Create extensive README.md
+- [ ] Remove local `.git` directory
+- [ ] Initialize new local git repository
+- [ ] Add GitHub remote
+- [ ] Commit current code state
+- [ ] Force push to overwrite remote history
